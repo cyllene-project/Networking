@@ -60,6 +60,6 @@ extension PollEvent {
     public static let oneShot = Types(rawValue: EPOLLONESHOT.rawValue)
     // TODO: those are from Linux 3.5 and 4.5 respectively:
     public static let wakeUp = Types(rawValue: EPOLLWAKEUP.rawValue)
-    public static let exclusive = Types(rawValue: EPOLLEXCLUSIVE.rawValue)
+    //public static let exclusive = Types(rawValue: EPOLLEXCLUSIVE.rawValue)
   }
 }
